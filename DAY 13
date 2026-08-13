@@ -61,8 +61,8 @@ class Student{
             System.out.print(rollno+" "+name);
         }
     public static void main(String[] args){
-        Student s = new Student(60,"gouse"); 
-        Student m=new Student(12,"GOuse");
+        Student s = new Student(60,"tharun"); 
+        Student m=new Student(12,"THARUN");
         m.Display();
         s.Display();
     }
@@ -85,10 +85,10 @@ class Student{
         System.out.println(rollno+" "+name);
     }
     public static void main(String[] args){
-        Student po = new Student(90,"Gouse");
+        Student po = new Student(90,"Tharun");
         Student ps=new Student(po);
         po.display();
     }
 }
 output:
-21 Gouse
+21 THARUN60 tharun
